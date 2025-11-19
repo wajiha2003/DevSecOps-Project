@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
-        DOCKER_REGISTRY = "your-dockerhub-username" // change to your Docker Hub username
+        DOCKER_REGISTRY = "wajihaaz2003" // change to your Docker Hub username
         IMAGE_NAME = "netflix-app"
     }
 
